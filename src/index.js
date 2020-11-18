@@ -8,7 +8,7 @@ import {EditMyData} from './edit'
 import "./styles/index.css";
 import "./index.css";
 
- 
+ const test = 'test'
 const WithEdit = ({ children }) => {
   const [editMyData, setEditMyData] = React.useState([]);
   return (
