@@ -1,0 +1,43 @@
+*::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.dragging {
+  /* border: 2px solid pink; */
+  overflow: hidden;
+  list-style: none;
+  
+}
+.dragging > div,
+.dragging > section {
+  zoom: 0.3;
+  /* transform: translateY(-16px); */
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+  /* background-color: transparent */
+  /* tailwind shadow-lg */
+  /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); */
+}
+
+.zoom {
+  /* zoom: 0.4; */
+  zoom: 0.5;
+  margin: 0 auto;
+}
+
+.library-zoom{
+  zoom: 0.3;
+  margin: 0 auto;
+}
+
+.trellis-shadow {
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.25);
+}
+.library-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 16px;
+  padding: 16px;
+}
